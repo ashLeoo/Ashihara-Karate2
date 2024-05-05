@@ -1,0 +1,274 @@
+.custom-navbar {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 0, 0, 0.5) 48%, rgba(255, 0, 0, 1) 90%);
+}
+
+.navbar {
+    height: 90px; /* Setează înălțimea navbar-ului la 80px */
+  }
+.custom-navbar .navbar-nav .nav-link {
+  color: white; /* Setează culoarea textului la alb pentru toate elementele .nav-link din .navbar-nav */
+}
+h2{
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: rgb(233, 52, 52);
+}
+/* Stilizare pentru imagine */
+.picture {
+    border: 2px solid #000; /* Grosimea și culoarea chenarului */
+    padding: 5px; /* Spațiu între chenar și imagine */
+    border-radius: 10px; /* Rotunjirea colțurilor chenarului */
+}
+.ajutator {
+    display: flex; /* Utilizarea flexbox pentru alinierea elementelor orizontal */
+  }
+  
+  /* Stilizare pentru containerul imaginii */
+  .picture {
+    border: 2px solid #000; /* Grosimea și culoarea chenarului */
+    padding: 5px; /* Spațiu între chenar și imagine */
+    border-radius: 10px; /* Rotunjirea colțurilor chenarului */
+    margin-right: 10px; /* Spațiu între imagine și card */
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  /* Stilizare pentru imagine */
+  .picture img {
+    display: block; /* Elimină spațiul suplimentar din jurul imaginii */
+    max-width: 100%; /* Asigură că imaginea nu depășește lățimea containerului */
+    height: auto; /* Păstrează raportul de aspect al imaginii */
+  }
+  
+  /* Stilizare pentru card */
+  .card {
+    flex: 1; /* Face cardul să ocupe spațiul disponibil pe rând */
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid #ccc; /* Grosimea si culoarea chenarului */
+    border-radius: 10px; /* Rotunjirea colțurilor chenarului */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra pentru a face cardul sa iasa in evidenta */
+  }
+  .card-body{
+    text-align: center;
+  }
+  .card-text{
+    font-size: 120%;
+    font-style: inherit;
+  }
+  h3{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(233, 52, 52);
+  }
+  h5{
+    color: white;
+  }
+  p1{
+    color: white;
+  }
+  .custom-carousel-item .carousel-caption {
+    text-align: right; /* Aliniere text la dreapta */
+    margin-right: 80px; /* Margine dreapta */
+}
+
+.custom-carousel-item .carousel-caption p {
+    margin-right: 60px; /* Ajustare margine dreapta a paragrafului */
+}
+.custom-navbar .navbar-nav .nav-link {
+  margin: 0 10px; /* Reduți marginea între link-uri */
+}
+
+.custom-navbar .navbar-nav .nav-link:first-child {
+  margin-left: 0; /* Elimină marginea stângă a primului link */
+}
+
+.custom-navbar .navbar-nav .nav-link:last-child {
+  margin-right: 0; /* Elimină marginea dreaptă a ultimului link */
+}
+h4{
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: rgb(233, 52, 52);
+}
+.image-container {
+  position: relative;
+  display: inline-block; /* Asigură că containerul încadrează imaginea și textul */
+}
+
+.transparent-image {
+  display: block;
+  width: 100%;
+  opacity: 0.7; /* Setează opacitatea la 70% (poți ajusta această valoare pentru a face imaginea mai mult sau mai puțin transparentă) */
+  position: relative; /* Asigură o bază pentru poziționarea absolută a textului */
+  margin-left: 10px;
+  top: 20px;
+}
+
+/* Stilizare text secțiuni */
+.image-text {
+  position: absolute;
+  bottom: 10%; /* Ajustează distanța dintre text și marginea de jos a imaginii */
+  left: 10%; /* Ajustează distanța dintre text și marginea din stânga a imaginii */
+  right: 5%;
+  color: white; /* Setează culoarea textului */
+  font-size: 15px; /* Ajustează mărimea fontului relativ la lățimea ecranului */
+  font-weight: bold; /* Setează textul să fie bold */
+  background-color: rgba(0, 0, 0, 0.5); /* Adaugă un fundal semi-transparent pentru text */
+  padding: 8px 12px; /* Adaugă puțin spațiu între text și marginea containerului */
+  max-width: 80%; /* Setează lățimea maximă a textului pentru a se adapta la ecrane mai mici */
+  word-wrap: break-word; /* Permite textului să se învârtă la trecerea peste lățimea maximă */
+}
+
+h6{
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: rgb(233, 52, 52);
+}
+
+#accordionExample {
+  max-width: 300px; /* Setează o lățime maximă */
+  margin: 0 auto; /* Poziționează în mijlocul paginii */
+  margin-top: 20px;
+  background-color: rgb(248, 145, 145);
+  padding: 20px;
+}
+
+/* Reducerea dimensiunii textului */
+.accordion-button {
+  background-color: #f7e8e8; /* Culoarea de fundal a butoanelor */
+  color: #140218; /* Culoarea textului butoanelor */
+  font-size: 14px;
+ 
+}
+.accordion-button:hover {
+  background-color: aqua; /* Culoarea de fundal a butoanelor la hover */
+}
+
+/* Reducerea spațiului dintre elementele acordeonului */
+.accordion-item {
+  margin-bottom: 5px;
+}
+.accordion-body img {
+  width: 40px; /* Setează lățimea imaginii la 100 de pixeli */
+  height: auto; /* Asigură menținerea proporțiilor imaginii */
+}
+footer{
+  padding: 20px;
+}
+/* Stilizare generală a formularului */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(251, 201, 201) ;
+}
+
+/* Stilizare pentru etichete */
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: center; /* Aliniere text pe mijloc */
+}
+input[type="email"] {
+  width: 100%; /* Lățimea input-ului */
+  padding: 10px; /* Spațierea în interiorul input-ului */
+  font-family: Arial, sans-serif; /* Setează fontul */
+  font-size: 16px; /* Setează dimensiunea fontului */
+  border-radius: 5px; /* Rotunjirea marginilor input-ului */
+  border: 1px solid #ccc; /* Adăugare bordură */
+}
+/* Stilizare pentru input-uri */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Asigură că padding-ul și border-ul sunt incluse în lățimea totală */
+}
+
+/* Stilizare pentru buton */
+button {
+  padding: 10px 20px;
+  background-color: #f7e8e8;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+footer button:hover {
+  background-color:rgb(248, 145, 145);
+}
+button {
+  display: block;
+  margin: 0 auto; /* Centrare orizontală */
+}
+hr {
+  margin: 20px auto; /* Muta linia pe mijloc */
+  border: none; /* Ascunde linia obișnuită */
+  border-top: 2px solid #060404; /* Adaugă o linie personalizată */
+  width: 50%; /* Setează lățimea liniei */
+}
+
+/* Stilizare pentru paragrafe */
+p {
+  text-align: center; /* Așează textul pe mijloc */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px; /* Setează dimensiunea fontului */
+  color: #333; /* Setează culoarea textului */
+
+}
+
+/* Stilizare pentru textul "OSU!" */
+.osu-text {
+  font-weight: bold; /* Setează textul îngroșat */
+  font-size: 20px; /* Mărește dimensiunea textului */
+  color: #ff0000; /* Setează culoarea textului la roșu */
+}
+
+/* Stilizare text secțiuni */
+@media (max-width: 768px) {
+  h2, h3, h4, h6 {
+    margin-left: 20px; /* Ajustează marginea stângă pentru titlurile secțiunilor */
+    margin-top: 30px; /* Ajustează marginea de sus pentru titlurile secțiunilor */
+    font-size: 24px; /* Redimensionează dimensiunea fontului pentru titlurile secțiunilor */
+  }
+  .card-text {
+    font-size: 14px; /* Redimensionează dimensiunea fontului pentru textul din carduri */
+  }
+  .image-text {
+    font-size: 14px; /* Redimensionează dimensiunea fontului pentru textul sub imagine */
+    padding: 5px 8px; /* Ajustează spațiul dintre text și marginea containerului pentru dispozitivele mici */
+    bottom: 50px; /* Ajustează poziția textului sub imagine */
+    right: 140px; /* Ajustează poziția textului sub imagine */
+  }
+  .card-body {
+    text-align: justify; /* Aliniază textul la stânga și la dreapta pentru a umple containerul */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
