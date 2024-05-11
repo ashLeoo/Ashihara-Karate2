@@ -1,10 +1,7 @@
-.custom-navbar {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 0, 0, 0.5) 48%, rgba(255, 0, 0, 1) 90%);
-}
-
 .navbar {
-    height: 90px; /* Setează înălțimea navbar-ului la 80px */
-  }
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 0, 0, 0.5) 48%, rgba(255, 0, 0, 1) 90%);
+  height: 90px; /* Setează înălțimea navbar-ului la 80px */
+}
 .custom-navbar .navbar-nav .nav-link {
   color: white; /* Setează culoarea textului la alb pentru toate elementele .nav-link din .navbar-nav */
 }
@@ -75,17 +72,6 @@ h2{
 
 .custom-carousel-item .carousel-caption p {
     margin-right: 60px; /* Ajustare margine dreapta a paragrafului */
-}
-.custom-navbar .navbar-nav .nav-link {
-  margin: 0 10px; /* Reduți marginea între link-uri */
-}
-
-.custom-navbar .navbar-nav .nav-link:first-child {
-  margin-left: 0; /* Elimină marginea stângă a primului link */
-}
-
-.custom-navbar .navbar-nav .nav-link:last-child {
-  margin-right: 0; /* Elimină marginea dreaptă a ultimului link */
 }
 h4{
   margin-left: 50px;
@@ -253,6 +239,30 @@ p {
   .card-body {
     text-align: justify; /* Aliniază textul la stânga și la dreapta pentru a umple containerul */
   }
+}
+
+
+.message-container {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+h2, h3, h4, h6 {
+  font-size: 30px; /* sau orice altă dimensiune dorită */
 }
 
 
