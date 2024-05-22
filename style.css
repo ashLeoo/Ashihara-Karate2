@@ -29,7 +29,7 @@ h2 {
   flex: 1;
   padding: 0;
   /* Elimină padding-ul */
-  margin: 80px 40px 30px 50px;
+  margin: 30px 40px 30px 50px;
   /* Ajustează marginile pentru a fi egale cu cardul */
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@ h2 {
 .picture img {
   display: block;
   /* Elimină spațiul suplimentar din jurul imaginii */
-  max-width: 120%;
+  max-width: 130%;
   /* Asigură că imaginea nu depășește lățimea containerului */
   height: auto;
   /* Păstrează raportul de aspect al imaginii */
@@ -53,7 +53,7 @@ h2 {
 /* Stilizare pentru card */
 .card {
   /* Face cardul să ocupe spațiul disponibil pe rând */
-  margin: 140px 10px 30px 50px;
+  margin: 30px 10px 30px 50px;
   /* Ajustează marginile pentru a fi egale cu imaginea */
   border: 2px solid #ccc;
   /* Grosimea și culoarea chenarului */
@@ -70,7 +70,7 @@ h2 {
 }
 
 .card-text {
-  font-size: 100%;
+  font-size: 116%;
   font-style: inherit;
 }
 
