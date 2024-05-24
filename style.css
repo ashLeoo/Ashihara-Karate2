@@ -15,54 +15,34 @@ h2 {
   background-color: rgb(233, 52, 52);
 }
 
-/* Stilizare pentru imagine */
-/* Container pentru imagine și text */
-.ajutator {
-  display: flex;
-  align-items: flex-start;
-  margin: 0 50px;
-  /* Ajustează marginea exterioară */
-}
 
-/* Stilizare pentru containerul imaginii */
-.picture {
-  flex: 1;
-  padding: 0;
-  /* Elimină padding-ul */
-  margin: 30px 40px 30px 50px;
-  /* Ajustează marginile pentru a fi egale cu cardul */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Stilizare pentru imagine */
-.picture img {
-  display: block;
-  /* Elimină spațiul suplimentar din jurul imaginii */
-  max-width: 130%;
-  /* Asigură că imaginea nu depășește lățimea containerului */
-  height: auto;
-  /* Păstrează raportul de aspect al imaginii */
+.img-about-me img {
+  width:670px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   border: 2px solid #000;
   /* Grosimea și culoarea chenarului */
   border-radius: 10px;
   /* Rotunjirea colțurilor chenarului */
 }
 
+
+
 /* Stilizare pentru card */
+.card-container {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 10px; /* Adaugă un padding pentru a separa cardurile de margini */
+}
+
+/* Stiluri pentru card */
 .card {
-  /* Face cardul să ocupe spațiul disponibil pe rând */
-  margin: 30px 10px 30px 50px;
-  /* Ajustează marginile pentru a fi egale cu imaginea */
-  border: 2px solid #ccc;
-  /* Grosimea și culoarea chenarului */
-  border-radius: 10px;
-  /* Rotunjirea colțurilor chenarului */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Umbra pentru a face cardul să iasă în evidență */
-  max-width: 50%;
-  /* Setează o lățime maximă pentru card */
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 50%; /* Setează lățimea cardului la 50% din lățimea ecranului */
+  height: 550px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
 }
 
 .card-body {

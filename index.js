@@ -16,11 +16,12 @@ class FormHandler {
     const formData = new FormData(this.form);
     let formIsValid = true;
 
-    // Verificăm toate câmpurile text
+    // Verificăm toate câmpurile text și eliminăm spațiile
     formData.forEach((value, key) => {
-      if (!value) {
+      if ((key === 'nume' || key === 'prenume') && !value.trim()) {
         formIsValid = false;
-        return;
+      } else if (!value.trim()) {
+        formIsValid = false;
       }
     });
 
@@ -39,14 +40,14 @@ class FormHandler {
 
     // Dacă nu toate câmpurile sunt completate, afișăm mesajul de eroare și nu trimitem formularul
     if (!formIsValid) {
-      this.showMessage('Te rugăm să completezi toate câmpurile!', 'error');
+      this.showMessage('Te rugăm să completezi toate câmpurile corect!', 'error');
       return;
     }
 
     // Dacă toate câmpurile sunt completate, trimitem formularul
     const formObject = {};
     formData.forEach((value, key) => {
-      formObject[key] = value;
+      formObject[key] = value.trim(); // eliminăm spațiile și pentru trimis
     });
 
     try {
