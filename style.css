@@ -28,7 +28,6 @@ h2 {
 }
 
 
-
 /* Stilizare pentru card */
 .card-container {
   margin-top: 30px;
@@ -42,7 +41,7 @@ h2 {
   margin-top: 100px;
   margin-left: 20px;
   width: 50%; /* Setează lățimea cardului la 50% din lățimea ecranului */
-  height: 550px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
+  height: 500px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
 }
 
 .card-body {
@@ -50,7 +49,8 @@ h2 {
 }
 
 .card-text {
-  font-size: 100%;
+  margin-top: 10px;
+  font-size: 15px;
   font-style: inherit;
 }
 
@@ -302,8 +302,14 @@ p {
     text-align: justify;
     /* Aliniază textul la stânga și la dreapta pentru a umple containerul */
   }
-}
+  
+  .card {
+        width: 100%;
+        margin-left: 0;
+  }
 
+
+}
 
 .message-container {
   margin-top: 10px;
