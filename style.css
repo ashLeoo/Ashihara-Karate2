@@ -17,39 +17,41 @@ h2 {
 
 
 .img-about-me img {
-  width: 670px;
+  width:670px;
   padding: 10px;
   margin-top: 10px;
   margin-left: 20px;
   border: 2px solid #000;
+  /* Grosimea și culoarea chenarului */
   border-radius: 10px;
+  /* Rotunjirea colțurilor chenarului */
+  box-sizing: border-box;
 }
 
+
+/* Stilizare pentru card */
 .card-container {
   margin-top: 30px;
   margin-bottom: 15px;
   display: flex;
-  padding: 10px;
+  padding: 10px; /* Adaugă un padding pentru a separa cardurile de margini */
 }
 
 /* Stiluri pentru card */
 .card {
   margin-top: 100px;
   margin-left: 20px;
-  width: 50%;
-  min-height: 500px;
-  padding: 20px;
+  width: 50%; /* Setează lățimea cardului la 50% din lățimea ecranului */
+  height: 520px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
+  box-sizing: border-box;
 }
 
 .card-body {
   text-align: center;
-  overflow-y: auto;
-  max-height: calc(1000px - 40px);
-  /* Ajustează max-height în funcție de padding */
 }
 
 .card-text {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 15px;
   font-style: inherit;
 }
